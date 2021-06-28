@@ -10,13 +10,17 @@ const StyledDiv = styled.div`
     min-width: 2.2in;
     `
 
+const StyledSocialIcon = styled(SocialIcon)`
+    display: block;
+    `
+
 function PortfolioCard({ project }) {
   return (
     <StyledDiv>
       <h4>{project.title}</h4>
       <p>{project.description}</p>
       {project.video}
-      <SocialIcon url={project.github} />
+      <StyledSocialIcon url={project.github} />
     </StyledDiv>
   );
 }
