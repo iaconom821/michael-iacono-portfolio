@@ -5,6 +5,7 @@ import Nav from "./Nav";
 
 const StyledImg = styled.img`
   width: 30vw;
+  height: 30vw;
   display: inline;
 `;
 
@@ -17,6 +18,7 @@ const StyledIframe = styled.iframe`
 
 const StyledTitles = styled.h1`
     margin: 1vw;
+    font-size: 2rem;
     font-weight: bolder;`
 
 const StyledDiv = styled.div`
@@ -30,7 +32,7 @@ const StyledP = styled.p`
   width: 50vw;
   margin: 2vw;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1rem;
 `;
 
 const projects = [
