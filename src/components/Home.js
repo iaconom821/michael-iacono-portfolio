@@ -7,6 +7,8 @@ const StyledImg = styled.img`
   width: 30vw;
   height: 30vw;
   display: inline;
+  min-width: 1.67in;
+  min-height: 1.67in;
 `;
 
 const StyledIframe = styled.iframe`
@@ -95,6 +97,7 @@ function Home() {
     <div>
       <StyledTitles>Michael Iacono</StyledTitles>
       <StyledDiv>
+        <StyledImg src={PROFILEPHOTO} alt="profile" />
         <StyledP>
           I'm a Full Stack software developer with a knack for solving difficult
           problems through creative thinking and persistence. My attention to detail while writing code and my
@@ -105,7 +108,6 @@ function Home() {
           skills. The skills I have gained motivating teams, managing conflict,
           and leading by example will serve me in my future career.
         </StyledP>
-        <StyledImg src={PROFILEPHOTO} alt="profile" />
       </StyledDiv>
       <StyledTitles as="h3">Technical Skills</StyledTitles>
       <StyledP>
