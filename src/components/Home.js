@@ -30,6 +30,7 @@ const StyledP = styled.p`
   width: 50vw;
   margin: 2vw;
   font-weight: bold;
+  font-size: 1.5rem;
 `;
 
 const projects = [
