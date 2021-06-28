@@ -7,13 +7,13 @@ const StyledImg = styled.img`
   width: 30vw;
   height: 30vw;
   display: inline;
-  min-width: 1.67in;
-  min-height: 1.67in;
+  min-width: 2.2in;
+  min-height: 2.2in;
 `;
 
 const StyledIframe = styled.iframe`
-  max-width: 25vw;
-  min-width: 1.25in;
+  max-width: 27vw;
+  min-width: 2in;
   position: relative;
   margin: auto;
 `;
