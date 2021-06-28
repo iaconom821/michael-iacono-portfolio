@@ -29,6 +29,7 @@ const StyledDiv = styled.div`
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  min-width: 3in;
 `;
 
 const StyledP = styled.p`
@@ -37,6 +38,7 @@ const StyledP = styled.p`
   margin: 2vw;
   font-weight: bold;
   font-size: 1rem;
+  min-width: 3in;
 `;
 
 const projects = [
