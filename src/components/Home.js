@@ -16,6 +16,8 @@ const StyledIframe = styled.iframe`
   min-width: 2in;
   position: relative;
   margin: auto;
+  display: block;
+  margin-bottom: 1vh;
 `;
 
 const StyledTitles = styled.h1`
