@@ -7,7 +7,7 @@ const StyledDiv = styled.div`
     border-radius: 5%;
     margin: 1vw;
     padding: 1vw;
-    min-width: 1.67in;
+    min-width: 2.2in;
     `
 
 function PortfolioCard({ project }) {
