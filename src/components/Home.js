@@ -54,7 +54,7 @@ const projects = [
   },
   {
     id: 2,
-    title: "SquareUpandRoundOut",
+    title: "SquareUp and RoundOut",
     description:
       "Track the amount of money you spent on a night out and how much you spent on food/drinks for friends",
     video: (
