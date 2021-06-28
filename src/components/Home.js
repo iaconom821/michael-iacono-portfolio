@@ -11,7 +11,7 @@ const StyledImg = styled.img`
 
 const StyledIframe = styled.iframe`
   max-width: 25vw;
-  min-width: 12vw;
+  min-width: 1.25in;
   position: relative;
   margin: auto;
 `;
