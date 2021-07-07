@@ -47,7 +47,8 @@ const projects = [
     title: "Goodboardgames",
     description:
       "Rate, review, and add board games to your online shelf, and see the board games other users have.",
-    video: (
+    url: "https://github.com/iaconom821/goodboardgamesfrontend",
+      video: (
       <StyledIframe
         src="https://www.youtube.com/embed/UtkGlRds2Uc"
         title="YouTube video player"
@@ -63,7 +64,8 @@ const projects = [
     title: "SquareUp and RoundOut",
     description:
       "Track the amount of money you spent on a night out and how much you spent on food/drinks for friends",
-    video: (
+    url: "https://squareupandroundout.netlify.app/",
+      video: (
       <StyledIframe
         src="https://www.youtube.com/embed/xRlKfIsDk1I"
         title="YouTube video player"
@@ -79,7 +81,8 @@ const projects = [
     title: "Let's Play Pick-Up Soccer",
     description:
       "Full calendar view to schedule and invite friends to play pick-up games at a local soccer field",
-    video: (
+    url: "https://letsplaypickupsoccer.netlify.app/login",
+      video: (
       <StyledIframe
         src="https://www.youtube.com/embed/T9GoKqk_Eq0"
         title="YouTube video player"

@@ -14,10 +14,13 @@ const StyledSocialIcon = styled(SocialIcon)`
     display: block;
     `
 
+const StyledA = styled.a`
+  color: black;`
+
 function PortfolioCard({ project }) {
   return (
     <StyledDiv>
-      <h4>{project.title}</h4>
+      <h4><StyledA href={project.url}>{project.title}</StyledA></h4>
       <p>{project.description}</p>
       {project.video}
       <StyledSocialIcon url={project.github} />
