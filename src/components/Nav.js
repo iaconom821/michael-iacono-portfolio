@@ -9,10 +9,10 @@ const StyledSocialIcon = styled(SocialIcon)`
 function Nav() {
   return (
     <div>
-      <StyledSocialIcon url="https://github.com/iaconom821" />
-      <StyledSocialIcon url="https://www.linkedin.com/in/michael-iacono6/" />
-      <StyledSocialIcon url="https://twitter.com/ConoCodes" />
-      <StyledSocialIcon url="mailto:iaconom821@gmail.com" />
+      <StyledSocialIcon url="https://github.com/iaconom821" target="_blank" />
+      <StyledSocialIcon url="https://www.linkedin.com/in/michael-iacono6/" target="_blank" />
+      <StyledSocialIcon url="https://twitter.com/ConoCodes" target="_blank" />
+      <StyledSocialIcon url="mailto:iaconom821@gmail.com" target="_blank" />
     </div>
   );
 }
