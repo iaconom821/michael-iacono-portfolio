@@ -110,7 +110,7 @@ function Home() {
           problems through creative thinking and persistence. My attention to detail while writing code and my
           genuine enjoyment in finding and fixing bugs help me find solutions. Previous experience
           includes directing youth sports programs and camp operations
-          including, managing staff, hiring and recruiting, creating curriculum,
+          including managing staff, hiring and recruiting, creating curriculum,
           and teaching classes. I'm looking for my next role to use my new
           skills. The skills I have gained motivating teams, managing conflict,
           and leading by example will serve me in my future career.
@@ -118,8 +118,7 @@ function Home() {
       </StyledDiv>
       <StyledTitles as="h3">Technical Skills</StyledTitles>
       <StyledP>
-        Ruby, Rails, ActiveRecord, PostgreSQL, SQL, JavaScript, React, Redux,
-        Python, ThreeJS, HTML, CSS, Git, Heroku, Styled Components 
+        JavaScript, React, Redux, NodeJS, ExpressJS, Ruby, Rails, ActiveRecord, PostgreSQL, SQL, MongoDB, Python, ThreeJS, HTML, CSS, Git, Heroku, Styled Components 
       </StyledP>
       <StyledTitles as="h3">Projects</StyledTitles>
       <StyledDiv>{portfolioCards}</StyledDiv>
