@@ -92,6 +92,23 @@ const projects = [
       ></StyledIframe>
     ),
     github: "https://github.com/iaconom821/fieldschedulerfrontend",
+  },
+  {
+    id: 4,
+    title: "War -HUH- What is it good for?",
+    description:
+      "The classic card game war",
+    url: "https://warwhatisitgoodfor.netlify.app/",
+      video: (
+      <StyledIframe
+        src="video coming soon"
+        title="YouTube video player"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      ></StyledIframe>
+    ),
+    github: "https://github.com/iaconom821/cardGameFrontend",
   }
 ];
 
