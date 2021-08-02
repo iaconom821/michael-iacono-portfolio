@@ -101,7 +101,7 @@ const projects = [
     url: "https://warwhatisitgoodfor.netlify.app/",
       video: (
       <StyledIframe
-        src="video coming soon"
+        src="https://youtu.be/cR-09ePY0DA"
         title="YouTube video player"
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
