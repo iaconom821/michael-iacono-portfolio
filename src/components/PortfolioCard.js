@@ -21,7 +21,7 @@ function PortfolioCard({ project }) {
   return (
     <StyledDiv>
       <h3><StyledA href={project.url} target="_blank" rel="noreferrer" >{project.title}</StyledA></h3>
-      <p>{project.description}</p>
+      <section>{project.description}</section>
       {project.video}
       <StyledSocialIcon url={project.github} target="_blank" />
     </StyledDiv>

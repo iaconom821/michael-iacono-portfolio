@@ -121,7 +121,7 @@ function Home() {
     <div>
       <StyledTitles>Michael Iacono</StyledTitles>
       <StyledDiv>
-        <StyledImg src={PROFILEPHOTO} alt="profile" />
+        <StyledImg src={PROFILEPHOTO} alt="Michael Iacono Profile Picture" />
         <StyledP>
           I'm a Full Stack software developer with a knack for solving difficult
           problems through creative thinking and persistence. My attention to detail while writing code and my
