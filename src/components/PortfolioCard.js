@@ -20,7 +20,7 @@ const StyledA = styled.a`
 function PortfolioCard({ project }) {
   return (
     <StyledDiv>
-      <h4><StyledA href={project.url} target="_blank" rel="noreferrer" >{project.title}</StyledA></h4>
+      <h3><StyledA href={project.url} target="_blank" rel="noreferrer" >{project.title}</StyledA></h3>
       <p>{project.description}</p>
       {project.video}
       <StyledSocialIcon url={project.github} target="_blank" />

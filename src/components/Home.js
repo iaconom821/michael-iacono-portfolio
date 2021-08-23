@@ -133,11 +133,11 @@ function Home() {
           and leading by example will serve me in my future career.
         </StyledP>
       </StyledDiv>
-      <StyledTitles as="h3">Technical Skills</StyledTitles>
+      <StyledTitles as="h2">Technical Skills</StyledTitles>
       <StyledP>
         JavaScript, React, Redux, NodeJS, ExpressJS, Ruby, Rails, ActiveRecord, PostgreSQL, SQL, MongoDB, Python, ThreeJS, HTML, CSS, Git, Heroku, Styled Components 
       </StyledP>
-      <StyledTitles as="h3">Projects</StyledTitles>
+      <StyledTitles as="h2">Projects</StyledTitles>
       <StyledDiv>{portfolioCards}</StyledDiv>
       <Nav />
     </div>
